@@ -1,0 +1,163 @@
+.lg-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 10px;
+    justify-content: center;
+    align-content: center;
+
+    
+}
+.bg-main-desktop{
+    width: 75%;  
+    min-height: 500px;
+    min-width: 400px;
+    position: absolute;
+    
+}
+.bg-main-mobile{
+    display: none;
+}
+.md-container{
+    position: relative;
+    min-width: 600px;
+        
+}
+.sm-container{
+    width: 100px;
+   
+    
+}
+.card-front{
+    width: 50%;
+    position: absolute;
+    margin-left: 300px;
+    margin-top: 100px;
+    color: red;
+}
+.card-back{
+    width: 350px;
+    z-index: 100;
+    position: absolute;
+    margin-top: 350px;
+    margin-left: 300px;
+}
+
+  
+
+.md-container2{
+    align-content: center;
+    justify-content: center;
+    padding: 50px;
+    position: relative;
+    padding-top: 120px;
+    
+}
+input{
+    width: 450px;
+    height: 35px;
+    border-radius: 10px;
+    border: 1px solid grey;
+    margin-bottom: 35px;
+    
+    
+}
+.day{
+    width: 100px;
+    margin-right: 10px;
+    margin-top: 8px;
+
+}
+.year{
+    width: 120px;
+    margin-right: 10px;
+}
+.cvc{
+    width: 190px;
+}
+button{
+    width: 450px;
+    background-color: rgb(75, 0, 75);
+    height: 45px;
+    border-radius: 10px;
+    border: none;
+    display: block;
+    margin: 20px;
+    margin-left: 0px;
+    margin-right: 0px;
+    color: white;
+}
+.exp-date{
+    display: inline;
+    margin-bottom: 10px;
+}
+.cvc-text{
+    display: inline;
+    margin-bottom: 5px;
+}
+.card-name{
+    margin-bottom: 4px;
+}
+.card-no{
+    margin-bottom: 4px;
+}
+.card-name1{
+    z-index: 100;
+    color:white;
+    font-size: 13px;
+    font-family:Arial, Helvetica, sans-serif;
+    position: absolute;
+    left: 330px;
+    bottom: 310px;
+    
+
+}
+.card-code{
+    z-index: 100;
+    color:white;
+    font-size: 18px;
+    font-family:Arial, Helvetica, sans-serif;
+    position: absolute;
+    left: 330px;
+    bottom: 340px;
+    letter-spacing: 3px;
+    
+
+}
+.card-pin{
+    z-index: 100;
+    color:white;
+    font-size: 13px;
+    font-family:Arial, Helvetica, sans-serif;
+    position: absolute;
+    left: 570px;
+    bottom: 310px;
+    
+
+}
+.card-pin2{
+    z-index: 100;
+    color:white;
+    font-size: 13px;
+    font-family:Arial, Helvetica, sans-serif;
+    position: absolute;
+    left: 585px;
+    bottom: 310px;
+    
+
+}
+.cvc-input{
+    z-index: 100;
+    color:rgb(255, 255, 255);
+    font-size: 13px;
+    font-family:Arial, Helvetica, sans-serif;
+    position: absolute;
+    left: 585px;
+    bottom: 110px;
+    
+
+}
+
+
+
+
+

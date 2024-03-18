@@ -1,0 +1,121 @@
+@media (max-width:600px){.lg-container{
+display: flex;
+flex-direction:column;
+justify-content: center;
+align-content: center;
+width: 600px;
+}}
+@media (max-width:600px){.md-container{
+    position: relative;
+    width: 100px;
+    
+}}
+@media (max-width:600px){.md-container2{
+    position: relative;
+    width: 400px;
+    margin-top: 350px;
+    margin-left: 0px;
+    padding-left: 10px;
+    margin-right: 0px;
+    padding-top: 30px;
+   
+    
+    
+}}
+@media (max-width:600px){.bg-main-mobile{
+    display: block;
+    width: 80%;
+    position: absolute;
+    height: 300px;
+    
+    
+}}
+@media (max-width:600px){.bg-main-desktop{
+    display: none;
+    
+}}
+@media (max-width:600px){.card-front{
+    width: 350px;
+    position: absolute;
+    margin-left: 30px;
+    margin-top: 160px;
+    z-index: 100;
+
+    
+}}
+@media (max-width:600px){.card-back{
+    width: 350px;
+    position: absolute;
+    margin-left: 50px;
+    margin-top: 15px;
+    z-index: 0;
+
+    
+}}
+
+
+
+
+@media (max-width:600px) {input{
+    width: 99%;
+    height: 35px;
+    border-radius: 10px;
+    border: 1px solid grey;
+    margin-bottom: 35px;
+    padding-left: 0px;
+    
+    
+}
+}
+@media (max-width:600px) {.input{
+    width: 400px;
+    height: 35px;
+    border-radius: 10px;
+    border: 1px solid grey;
+    margin-bottom: 35px;
+}
+}
+:placeholder-shown{
+    font-size: 18px;
+    color: rgba(211, 211, 211, 0.4);
+    
+}
+@media (max-width:600px) {.day{
+    width: 20%;
+    margin-right: 5px;
+    margin-top: 8px;
+}
+}
+@media (max-width:600px) {.year{
+    width: 21%;
+    margin-right: 5px;
+
+}
+}
+@media (max-width:600px) {.cvc{
+    width: 54%;
+    padding-right:0px ;
+    margin-right: 0px;
+    margin-left: 0px;
+    padding-left: px;
+    
+}
+}
+
+@media (max-width:600px) {button{
+   
+    width: 300px;
+    background-color: rgb(75, 0, 75);
+    height: 45px;
+    border-radius: 10px;
+    border: none;
+    display: block;
+    margin: 20px;
+    margin-left: 60px;
+    margin-right: 0px;
+    color: white;
+    justify-content: center;
+    align-content: center;
+    align-self: center;
+}
+}
